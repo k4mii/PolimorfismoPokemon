@@ -1,15 +1,16 @@
 package autonoma.pokemonpolimorfismo.models;
 
 /**
- *
- * @author Kamii
+ * @author camila prada 
+ * version 1.0.0
+ * 3/29/25
  */
 public class Squirtle extends Pokemon implements PokemonAgua{
 
     public Squirtle(int numPokedex, String nombre, float peso, String temporada) {
         super(numPokedex, nombre, peso, temporada);
     }
-    
+    //metodos abstractos de  Clase Pokemon
     @Override
     public String atacarPlacaje(){
         return " Soy Squirtle y estoy atacando con PLACAJE ";

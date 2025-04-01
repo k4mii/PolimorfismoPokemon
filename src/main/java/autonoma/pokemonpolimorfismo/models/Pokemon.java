@@ -1,15 +1,16 @@
 package autonoma.pokemonpolimorfismo.models;
 
 /**
- *
- * @author Kamii
+ * @author camila prada 
+ * version 1.0.0
+ * 3/29/25
  */
 public  abstract class Pokemon {
-    int numPokedex;
+    private int numPokedex;
     private String nombre;
     private float peso;
     private String temporada;
-
+//Metodo constructor
     public Pokemon(int numPokedex, String nombre, float peso, String temporada) {
         this.numPokedex = numPokedex;
         this.nombre = nombre;

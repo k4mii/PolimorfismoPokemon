@@ -12,8 +12,9 @@ import autonoma.pokemonpolimorfismo.models.Squirtle;
 
 
 /**
- *
- * @author Kamii
+ * @author camila prada 
+ * version 1.0.0
+ * 3/29/25
  */
 public class PokemonPolimorfismo  {
     public static void main(String args[]){
